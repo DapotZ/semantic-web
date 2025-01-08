@@ -1,0 +1,33 @@
+# Direktori node_modules (untuk Node.js/JavaScript)
+node_modules/
+
+# Cache dan log
+*.log
+*.cache
+*.tmp
+*.lock
+.DS_Store       # File macOS
+Thumbs.db       # File Windows
+*.swp           # Swap files (untuk editor teks)
+
+# Folder build/output
+dist/
+build/
+out/
+
+# File environment
+.env
+.env.local
+
+# File konfigurasi editor
+.idea/
+.vscode/
+*.iml
+
+# Hasil testing
+coverage/
+
+# File package manager
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
